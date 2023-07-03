@@ -51,7 +51,7 @@ end
 local servers = {
 	-- clangd = {},
 	-- gopls = {},
-	-- pyright = {},
+	pyright = {},
 	-- rust_analyzer = {},
 	-- tsserver = {},
 
@@ -61,6 +61,12 @@ local servers = {
 			telemetry = { enable = false },
 		},
 	},
+}
+
+local additional_servers = {
+	"ruff",
+	"mypy",
+	"black",
 }
 
 -- Setup neovim lua configuration

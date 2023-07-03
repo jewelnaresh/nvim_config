@@ -15,6 +15,7 @@ require("lazy").setup({
 	require('custom.plugins.telescope'),
 	require('custom.plugins.themes'),
 	require("custom.plugins.treesitter"),
+	require("custom.plugins.null_ls"),
 	-- NOTE: This is where your plugins related to LSP can be installed.
 	--  The configuration is done below. Search for lspconfig to find it below.
 	{
